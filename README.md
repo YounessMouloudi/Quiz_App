@@ -1,3 +1,9 @@
+## About Project
+
+This project started as part of a web development internship at Lifemoz and was later completed independently to demonstrate my ability to finalize and enhance the project on my own.
+It is a server-side web application made with **Laravel**. It employs **CSS** and **Bootstrap** for responsive design and **JavaScript** for dynamic interactions, following the **MVC architecture**. It allows **chiropractors** to test their knowledge through interactive quizzes. **Admins** manage the app, while users access it via a secure authentication system. Users can create accounts or play as guests, participate in quizzes, view their scores, and check how they rank against others.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
