@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+	--color-primary : #007392;
+	--color-secondary : #EEEFF2;
+	--color-tertiary : #F8C660;
+	--font-type : "Montserrat", sans-serif;
+    --font-type2 : "Baloo 2", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-type) !important;
+    background-color: var(--color-primary) !important;
+}
+.container .score-total {
+    background-color: #93C5D2;
+    border: 1px solid var(--color-primary);
+    width: 60%;
+    margin-top: 2rem;
+    border-radius: 20px;
+}
+.container .button {
+    background-color: var(--color-tertiary);
+    font-family: var(--font-type2);
+}
+.circle {
+    height: 50%;
+    perspective: 100px;
+}
+.circle .box-white {
+    width: 90vw;
+    height: 60vh;
+    background-color: #eff0f3;
+    position: absolute;
+    top: 223px;
+    left: 50%;
+    transform: translate3d(-50%,-50%,56px);
+}
+.container .box-title {
+    color: var(--color-primary);
+}
+.container .box-cards .box-name {
+    font-size: smaller;
+}
+.container .down-menu {
+    background-color: var(--color-primary);
+}

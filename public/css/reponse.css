@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+	--color-primary : #007392;
+	--color-secondary : #EEEFF2;
+	--color-tertiary : #F8C660;
+	--font-type : "Montserrat", sans-serif;
+	--font-type2 : "Baloo 2", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-type2) !important;
+    background-color: #eff0f3 !important;
+}
+header a span{
+    font-size: smaller;
+    color: #004643;
+}
+header h6 {
+    font-size: large;
+}
+.container .circle {
+    width: 150px;
+    height: 150px;
+    background-color: #93C5D2;
+}
+.container .box-text {
+    color: var(--color-primary);
+    font-size: smaller;
+}
+.container .button {
+    background-color: var(--color-tertiary);
+    font-family: var(--font-type2);
+    font-size: 22px;
+}
